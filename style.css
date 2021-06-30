@@ -1,5 +1,9 @@
 body{
-    background-color:#DDFCF7;  
+    background-color:#DEDEDE;  
+}
+img{
+    width: 70%;
+    length: 70%;
 }
 .cla
 {
@@ -35,7 +39,7 @@ input[type=text], select {
     width: 50%;
     background-color: pink;
     color: white;
-    padding: 14px 20px;
+    padding: 14px 120px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
@@ -45,4 +49,7 @@ input[type=text], select {
   input[type=submit]:hover {
     background-color: blue;
   }
-  
+  a{
+      margin-left: 480px;
+      text-decoration: none;
+  }
