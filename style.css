@@ -1,10 +1,12 @@
 body{
-    background-color: #E2FEFE;  
+    background-color:#DDFCF7;  
 }
 .cla
 {
+    
+    border-radius: 20px;
     padding-top:8%;
-    padding-bottom: 10%;
+    padding-bottom: 20%;
     padding-left: 5%, 8%;
     margin-top:  100px;
     margin-left: 25%;
@@ -14,3 +16,33 @@ body{
     font-size: 30p;
 
 }
+input[type=submit]:hover {
+    background-color: yellow;
+  }
+
+  
+input[type=text], select {
+    width: 70%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 50%;
+    background-color: pink;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: blue;
+  }
+  
