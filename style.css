@@ -1,7 +1,16 @@
 body{
-    background-color: green;  
+    background-color: #E2FEFE;  
 }
 .cla
 {
-    background-color: yellow;
+    padding-top:8%;
+    padding-bottom: 10%;
+    padding-left: 5%, 8%;
+    margin-top:  100px;
+    margin-left: 25%;
+    background-color: white;
+    width: 50%;
+    height: 30%;
+    font-size: 30p;
+
 }
