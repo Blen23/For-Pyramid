@@ -6,7 +6,7 @@
     <body>
    
 <div class="container">
-    <form action="/action_page.php">
+    <form>
     <div class="row">
       <div class="col-25">
         <label for="fname">First Name</label>
@@ -15,5 +15,16 @@
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
       </div>
     </div>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="work">Choose work: </label>
+    <select>
+      <option value="australia">Plumber</option>
+      <option value="canada">Maintainer</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+    </form>
     </body>
 </html>
