@@ -2,15 +2,15 @@ body{
     background-color:#DEDEDE;  
 }
 img{
-    width: 70%;
-    length: 70%;
+    width: 50%;
+    
 }
 .cla
 {
     
     border-radius: 20px;
-    padding-top:8%;
-    padding-bottom: 5%;
+    padding-top:4%;
+    padding-bottom: 10%;
     padding-left: 5%, 8%;
     margin-top:  20px;
     margin-left: 25%;
@@ -24,7 +24,7 @@ input[type=submit]:hover {
   }
 
   
-input[type=text], select {
+input[type=text], select, input[type=password]{
     width: 70%;
     padding: 10px;
     margin: 8px 0;
@@ -49,6 +49,9 @@ input[type=text], select {
     background-color: blue;
   }
   a{
+     font-size: 20px;
       margin-left: 480px;
+      float: left;
       text-decoration: none;
   }
+
