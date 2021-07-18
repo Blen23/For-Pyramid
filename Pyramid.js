@@ -1,14 +1,19 @@
- var row = 5;
- var linebreak = '\n';
- for(var i=0; i <row; i++)
- {
-    for(var k=0; k<=row; k++)
-    {
-        console.log('\t');
-    }
-     for(var j=0; j<=i; j++)
-     {
-         console.log("* ");
-     }
-     console.log(linebreak )
- }
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <title></title>
+     </head>
+     <body>
+         <script type= "text/javascript">
+             var col= 5;
+             var i,j,k;
+             for(i=0; i<col; i++)
+             {
+               for(j=0; j<=1; j++)  
+               {
+                   document.write("*")
+               }
+             }
+         </script>
+     </body>
+ </html>
